@@ -1,0 +1,218 @@
+﻿TABLE_SCHEMA                                                                                                                     TABLE_NAME
+-------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------
+dbo                                                                                                                              cleaned_customer_data
+dbo                                                                                                                              sysdiagrams
+
+(2 rows affected)
+
+customer_id age  gender                                             item_purchased                                     category                                           purchase_amount location                                           size                                               color                                              season                                             review_rating          subscription_status                                shipping_type                                      discount_applied                                   previous_purchases payment_method                                     frequency_of_purchases                             age_age_group                                      age_group                                          purchase_frequency_days
+----------- ---- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- --------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ---------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------ -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------------
+1           55   Male                                               Blouse                                             Clothing                                           53              Kentucky                                           L                                                  Gray                                               Winter                                             3.09999990463257       Yes                                                Express                                            Yes                                                14                 Venmo                                              Fortnightly                                        Middle-aged                                        Middle-aged                                        14
+2           19   Male                                               Sweater                                            Clothing                                           64              Maine                                              L                                                  Maroon                                             Winter                                             3.09999990463257       Yes                                                Express                                            Yes                                                2                  Cash                                               Fortnightly                                        young Adult                                        young Adult                                        14
+3           50   Male                                               Jeans                                              Clothing                                           73              Massachusetts                                      S                                                  Maroon                                             Spring                                             3.09999990463257       Yes                                                Free Shipping                                      Yes                                                23                 Credit Card                                        Weekly                                             Middle-aged                                        Middle-aged                                        7
+4           21   Male                                               Sandals                                            Footwear                                           90              Rhode Island                                       M                                                  Maroon                                             Spring                                             3.5                    Yes                                                Next Day Air                                       Yes                                                49                 PayPal                                             Weekly                                             young Adult                                        young Adult                                        7
+5           45   Male                                               Blouse                                             Clothing                                           49              Oregon                                             M                                                  Turquoise                                          Spring                                             2.70000004768372       Yes                                                Free Shipping                                      Yes                                                31                 PayPal                                             Annually                                           Middle-aged                                        Middle-aged                                        365
+6           46   Male                                               Sneakers                                           Footwear                                           20              Wyoming                                            M                                                  White                                              Summer                                             2.90000009536743       Yes                                                Standard                                           Yes                                                14                 Venmo                                              Weekly                                             Middle-aged                                        Middle-aged                                        7
+7           63   Male                                               Shirt                                              Clothing                                           85              Montana                                            M                                                  Gray                                               Fall                                               3.20000004768372       Yes                                                Free Shipping                                      Yes                                                49                 Cash                                               Quarterly                                          Senior                                             Senior                                             90
+8           27   Male                                               Shorts                                             Clothing                                           34              Louisiana                                          L                                                  Charcoal                                           Winter                                             3.20000004768372       Yes                                                Free Shipping                                      Yes                                                19                 Credit Card                                        Weekly                                             young Adult                                        young Adult                                        7
+9           26   Male                                               Coat                                               Outerwear                                          97              West Virginia                                      L                                                  Silver                                             Summer                                             2.59999990463257       Yes                                                Express                                            Yes                                                8                  Venmo                                              Annually                                           young Adult                                        young Adult                                        365
+10          57   Male                                               Handbag                                            Accessories                                        31              Missouri                                           M                                                  Pink                                               Spring                                             4.80000019073486       Yes                                                2-Day Shipping                                     Yes                                                4                  Cash                                               Quarterly                                          Middle-aged                                        Middle-aged                                        90
+
+(10 rows affected)
+
+Total_Customers
+---------------
+3900
+
+(1 row affected)
+
+Total_Sales
+-----------
+233081
+
+(1 row affected)
+
+category                                           Total_Sales
+-------------------------------------------------- -----------
+Clothing                                           104264
+Accessories                                        74200
+Footwear                                           36093
+Outerwear                                          18524
+
+(4 rows affected)
+
+gender                                             Total_Customers
+-------------------------------------------------- ---------------
+Male                                               2652
+Female                                             1248
+
+(2 rows affected)
+
+gender                                             Total_Revenue
+-------------------------------------------------- -------------
+Male                                               157890
+Female                                             75191
+
+(2 rows affected)
+
+item_purchased                                     Times_Purchased
+-------------------------------------------------- ---------------
+Blouse                                             171
+Pants                                              171
+Jewelry                                            171
+Shirt                                              169
+Dress                                              166
+Sweater                                            164
+Jacket                                             163
+Coat                                               161
+Belt                                               161
+Sunglasses                                         161
+Sandals                                            160
+Socks                                              159
+Skirt                                              158
+Scarf                                              157
+Shorts                                             157
+Hat                                                154
+Handbag                                            153
+Hoodie                                             151
+Shoes                                              150
+T-shirt                                            147
+Sneakers                                           145
+Boots                                              144
+Backpack                                           143
+Gloves                                             140
+Jeans                                              124
+
+(25 rows affected)
+
+category                                           Total_Orders
+-------------------------------------------------- ------------
+Clothing                                           1737
+Accessories                                        1240
+Footwear                                           599
+Outerwear                                          324
+
+(4 rows affected)
+
+season                                             Orders      Revenue
+-------------------------------------------------- ----------- -----------
+Fall                                               975         60018
+Spring                                             999         58679
+Winter                                             971         58607
+Summer                                             955         55777
+
+(4 rows affected)
+
+payment_method                                     Transactions
+-------------------------------------------------- ------------
+PayPal                                             677
+Credit Card                                        671
+Cash                                               670
+Debit Card                                         636
+Venmo                                              634
+Bank Transfer                                      612
+
+(6 rows affected)
+
+discount_applied                                   Orders      Avg_Order_Value
+-------------------------------------------------- ----------- ---------------
+Yes                                                1677        59
+No                                                 2223        60
+
+(2 rows affected)
+
+subscription_status                                Customers   Revenue
+-------------------------------------------------- ----------- -----------
+Yes                                                1053        62645
+No                                                 2847        170436
+
+(2 rows affected)
+
+category                                           Average_Rating
+-------------------------------------------------- ----------------------
+Footwear                                           3.79382303959141
+Accessories                                        3.77024193559923
+Outerwear                                          3.74598765593988
+Clothing                                           3.72130109389486
+
+(4 rows affected)
+
+location                                           Revenue
+-------------------------------------------------- -----------
+Montana                                            5784
+Illinois                                           5617
+California                                         5605
+Idaho                                              5587
+Nevada                                             5514
+Alabama                                            5261
+New York                                           5257
+North Dakota                                       5220
+West Virginia                                      5174
+Nebraska                                           5172
+
+(10 rows affected)
+
+shipping_type                                      Orders      Avg_Order_Value
+-------------------------------------------------- ----------- ---------------
+Free Shipping                                      675         60
+Standard                                           654         58
+Store Pickup                                       650         59
+Next Day Air                                       648         58
+Express                                            646         60
+2-Day Shipping                                     627         60
+
+(6 rows affected)
+
+customer_id previous_purchases
+----------- ------------------
+21          50
+79          50
+102         50
+125         50
+141         50
+159         50
+291         50
+311         50
+314         50
+366         50
+
+(10 rows affected)
+
+frequency_of_purchases                             Customers
+-------------------------------------------------- -----------
+Every 3 Months                                     584
+Annually                                           572
+Quarterly                                          563
+Monthly                                            553
+Bi-Weekly                                          547
+Fortnightly                                        542
+Weekly                                             539
+
+(7 rows affected)
+
+size                                               Revenue
+-------------------------------------------------- -----------
+M                                                  105167
+L                                                  61667
+S                                                  40468
+XL                                                 25779
+
+(4 rows affected)
+
+size                                               Revenue
+-------------------------------------------------- -----------
+M                                                  105167
+L                                                  61667
+S                                                  40468
+XL                                                 25779
+
+(4 rows affected)
+
+Total_Customers Total_Revenue Average_Purchase Highest_Purchase Lowest_Purchase Average_Rating
+--------------- ------------- ---------------- ---------------- --------------- ----------------------
+3900            233081        59               100              20              3.75005128243031
+
+(1 row affected)
+
+
+Completion time: 2026-07-18T23:25:39.6390043+05:30
