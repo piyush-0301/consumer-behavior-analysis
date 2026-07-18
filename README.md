@@ -118,7 +118,7 @@ Business Insights
 **Piyush Sanjay Udapurkar**
 
 - GitHub: https://github.com/piyush-0301
-- LinkedIn: *(Add your LinkedIn profile link here)*
+- LinkedIn: https://www.linkedin.com/in/piyush-udapurkar-7484a1295
 
 ---
 
